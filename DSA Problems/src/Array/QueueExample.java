@@ -16,10 +16,17 @@ public class QueueExample {
 	
 	public int deQueue()
 	{
+		if(front==null)
+		{
+			System.out.print("Deletion of queue is not possible"); 
+		}
+		else
+		{
 		int data = queue[front];
 		front = front +1;
 		size = size - 1;
 		return data;
+		}
 	} 
 	
 	public void show()

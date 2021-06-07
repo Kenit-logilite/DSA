@@ -16,9 +16,9 @@ public class QueueExample {
 	
 	public int deQueue()
 	{
-		if(front==null)
+		if(front == rear)
 		{
-			System.out.print("Deletion of queue is not possible"); 
+			System.out.print("Deletion of queue is not possible... The Queue is Null"); 
 		}
 		else
 		{
@@ -27,6 +27,7 @@ public class QueueExample {
 		size = size - 1;
 		return data;
 		}
+		return 0;
 	} 
 	
 	public void show()
@@ -46,7 +47,7 @@ public class QueueExample {
 		q.enQueue(40);
 		q.enQueue(50);
 		
-		q.deQueue();
+		q.deQueue();   
 		q.show();
 	}
 }

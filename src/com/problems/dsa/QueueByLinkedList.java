@@ -1,6 +1,6 @@
-package Array;
+package com.problems.dsa;
 
-import Array.QueueByLinkedList.Node;
+import com.problems.dsa.QueueByLinkedList.Node;
 
 public class QueueByLinkedList {
 	private Node front,rear;

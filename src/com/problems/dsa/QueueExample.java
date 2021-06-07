@@ -1,4 +1,4 @@
-package Array;
+package com.problems.dsa;
 
 public class QueueExample {
 	
